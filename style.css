@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsla(140, 27%, 37%, 1);
+
+background: radial-gradient(circle, hsla(140, 27%, 37%, 1) 0%, hsla(120, 53%, 21%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(140, 27%, 37%, 1) 0%, hsla(120, 53%, 21%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(140, 27%, 37%, 1) 0%, hsla(120, 53%, 21%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#447755", endColorstr="#195119", GradientType=1 );
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #478147;
+}
+
+nav p {
+    font-family: 'Spartan', sans-serif;
+    color: white;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul {
+    float: right;
+    padding-right: 359px;
+    padding-top: 15px;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    font-family: 'Spartan', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 22px 14px;
+    text-decoration: none
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: none;
+    padding: 15px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+    display: grid;
+    grid-template-columns: 29% 81%;
+}
+
+nav ul li ul li {
+    width: 500px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a {
+    padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+    background-color: #709C77;
+}
+
+.animal {
+   text-align: left; 
+   color: white;
+   padding-left: 40px;
+   padding-top: 20px;
+   font-size: 20px;
+   font-family: 'Spartan', sans-serif;
+}
+
+p {
+  text-align: left; 
+  color: white;
+  padding-left: 40px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.home {
+    text-align: left;
+    color: white;
+    padding: 10px;
+    font-family: 'Spartan', sans-serif;
+}
+
+.list {
+    color: white;
+    padding-left: 40px;
+    font-size: 18px;
+    font-family: 'Spartan', sans-serif;
+}
+
+.about {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-family: 'Spartan', sans-serif;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+    
+.img {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
